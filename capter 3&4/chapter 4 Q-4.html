@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+        <html lang="en-us">
+                <head>
+                <meta charset="utf-8">
+                <title>chapter 4 Q 2</title>
+    <head>
+<script>
+
+function yourAddress(){
+
+    const Fname =document.getElementById("Name").value;
+    const Street =document.getElementById("Street").value ;
+    const Zipcode =document.getElementById("Zipcode").value ;
+    const Stat =document.getElementById("Stat").value ;
+    Info = Fname +"  "+Street +" "+ Zipcode+ Stat  ;
+    document.getElementById("output").innerHTML=Info;
+}
+</script>
+
+    </head>
+<body> 
+        
+ Name   <input type=" Name" id="text"size="30"><br>
+<br>
+Street  <input type=" Street" id="text"size="20"><br>
+<br>
+Zipcode <input type=" Zipcode" id="text"size="10"><br>
+<br>
+Stat <input type=" Stat" id="text"size="10"><br>
+<br>
+<button onclick="yourAddress()">put your Info.  </button>
+<br>
+<textarea id="txaMessage" rows="4" cols="30">
+    </textarea>
+<button onclick="yourAddress()"> Comments  </button>
+<span id="output">  </span>
+</body>
+
+
+
+</html>
